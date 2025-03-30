@@ -11,7 +11,17 @@ Deckoria is a cutting-edge card game that combines fast-paced multiplayer battle
 - **Stunning Visuals & Animations**: Enjoy a sleek UI with heavy animations, vibrant graphics, and interactive effects designed for an immersive gaming experience.
 - **Diverse Gameplay Elements**: Master different card types such as minions, spells, and weapons to dominate the battlefield.
 
-## Technologies Used
+## Images
+
+![Screenshot from 2025-03-30 23-48-41](https://github.com/user-attachments/assets/83a31ce0-6da6-4e22-8d8f-561fd066ed4c)
+![Screenshot from 2025-03-30 23-48-51](https://github.com/user-attachments/assets/58c817e8-f53a-4775-af7b-4efb29b7766a)
+![Screenshot from 2025-03-30 23-48-59](https://github.com/user-attachments/assets/d5d84ffa-74ee-4a08-8894-617179ed17d5)
+
+![Screenshot from 2025-03-30 23-49-08](https://github.com/user-attachments/assets/f0d8ed4d-dd36-421a-8dbe-fb3528a5e058)
+![Screenshot from 2025-03-30 23-49-28](https://github.com/user-attachments/assets/dcb6019a-e852-4daa-afe6-33aba615fafd)
+
+
+## Technologies Used 
 
 This project is built with:
 - Vite
