@@ -1,0 +1,168 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;500;600;700&display=swap'); */
+
+@font-face {
+  font-family: 'Wotfard';
+  src: url('/fonts/Wotfard.woff2') format('woff2'),
+       url('/fonts/Wotfard.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+  :root {
+    --background: 250 33% 97%;
+    --foreground: 240 5% 12%;
+
+    --card: 246 30% 95%;
+    --card-foreground: 240 5% 12%;
+
+    --popover: 250 33% 97%;
+    --popover-foreground: 240 5% 12%;
+
+    --primary: 267 76% 50%;
+    --primary-foreground: 255 100% 100%;
+
+    --secondary: 260 30% 50%;
+    --secondary-foreground: 240 5% 97%;
+
+    --muted: 250 20% 90%;
+    --muted-foreground: 240 5% 45%;
+
+    --accent: 43 96% 51%;
+    --accent-foreground: 240 5% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 246 30% 85%;
+    --input: 246 30% 85%;
+    --ring: 267 76% 61%;
+
+    --radius: 0.75rem;
+  }
+  
+  .dark {
+    --background: 250 33% 12%;
+    --foreground: 240 5% 96%;
+
+    --card: 246 30% 20%;
+    --card-foreground: 240 5% 96%;
+
+    --popover: 250 33% 12%;
+    --popover-foreground: 240 5% 96%;
+
+    --primary: 267 76% 61%;
+    --primary-foreground: 255 100% 100%;
+
+    --secondary: 260 30% 54%;
+    --secondary-foreground: 240 5% 96%;
+
+    --muted: 250 20% 20%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 43 96% 51%;
+    --accent-foreground: 240 5% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 246 30% 25%;
+    --input: 246 30% 25%;
+    --ring: 267 76% 61%;
+
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+@layer components {
+  .game-card {
+    @apply relative bg-card rounded-xl overflow-hidden shadow-lg transition-all duration-300 backdrop-blur-sm border border-game-primary/20;
+  }
+  
+  .game-card-rarity-common {
+    @apply border-gray-400/40 shadow-[0_0_5px_rgba(255,255,255,0.2)];
+  }
+  
+  .game-card-rarity-rare {
+    @apply border-blue-400/40 shadow-[0_0_5px_rgba(0,123,255,0.3)];
+  }
+  
+  .game-card-rarity-epic {
+    @apply border-purple-400/40 shadow-[0_0_5px_rgba(139,92,246,0.4)];
+  }
+  
+  .game-card-rarity-legendary {
+    @apply border-game-accent/40 shadow-[0_0_5px_rgba(255,193,7,0.5)];
+  }
+
+  .glass-panel {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-xl shadow-xl dark:bg-black/5;
+  }
+  
+  .game-btn {
+    @apply px-6 py-2.5 rounded-lg font-medium transition-all duration-300 relative overflow-hidden;
+  }
+  
+  .game-btn-primary {
+    @apply bg-game-primary hover:bg-game-primary/90 text-white shadow-md hover:shadow-lg;
+  }
+  
+  .game-btn-secondary {
+    @apply bg-game-secondary hover:bg-game-secondary/90 text-white shadow-md hover:shadow-lg;
+  }
+  
+  .game-btn-accent {
+    @apply bg-game-accent hover:bg-game-accent/90 text-game-dark font-bold shadow-md hover:shadow-lg;
+  }
+  
+  .game-btn-outline {
+    @apply border-2 border-game-primary/70 text-game-primary hover:bg-game-primary/10;
+  }
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.card-hover-effect {
+  transition: all 0.3s ease;
+}
+
+.card-hover-effect:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.playing-card-container {
+  perspective: 1000px;
+}
