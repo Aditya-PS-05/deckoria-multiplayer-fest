@@ -1,26 +1,35 @@
-# Welcome to your Lovable project
+# Deckoria: The Ultimate Multiplayer Card Game
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/c64ddc95-f6e4-4220-932e-0cbe9c79c2d5
+Deckoria is a cutting-edge card game that combines fast-paced multiplayer battles with deep deck-building mechanics. Designed for hackathon-level excellence, this game boasts a top-tier, animation-rich user interface that immerses players in a visually stunning experience. Build your decks, challenge opponents in real time, and master dynamic strategies through beautifully crafted interactions and heavy UI effects.
 
-## How can I edit this code?
+## Key Features
 
-There are several ways of editing your application.
+- **Multiplayer Battles**: Engage in real-time duels with players from around the globe.
+- **Deck Building**: Craft powerful card combinations and experiment with unique strategies.
+- **Stunning Visuals & Animations**: Enjoy a sleek UI with heavy animations, vibrant graphics, and interactive effects designed for an immersive gaming experience.
+- **Diverse Gameplay Elements**: Master different card types such as minions, spells, and weapons to dominate the battlefield.
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c64ddc95-f6e4-4220-932e-0cbe9c79c2d5) and start prompting.
+This project is built with:
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-Changes made via Lovable will be committed automatically to this repo.
+## How to Get Started
 
-**Use your preferred IDE**
+### Using Lovable
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Simply visit the [Lovable Project](https://lovable.dev/projects/c64ddc95-f6e4-4220-932e-0cbe9c79c2d5) to start prompting.  
+Changes made via Lovable will be committed automatically to this repository.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Using Your Preferred IDE
 
-Follow these steps:
+If you prefer working locally, follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
@@ -30,40 +39,34 @@ git clone <YOUR_GIT_URL>
 cd <YOUR_PROJECT_NAME>
 
 # Step 3: Install the necessary dependencies.
-npm i
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server with auto-reloading and instant preview.
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Edit Directly in GitHub
 
 - Navigate to the desired file(s).
 - Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Make your changes and commit them.
 
-**Use GitHub Codespaces**
+### Using GitHub Codespaces
 
 - Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
+- Click on the "Code" button near the top right.
 - Select the "Codespaces" tab.
 - Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Edit files within the Codespace and commit your changes once done.
 
-## What technologies are used for this project?
+## How to Deploy
 
-This project is built with .
+Simply open [Lovable](https://lovable.dev/projects/c64ddc95-f6e4-4220-932e-0cbe9c79c2d5) and click on **Share -> Publish**.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+> **Note:** Custom domains aren't supported via Lovable yet. For deployment under your own domain, consider using Netlify. More details can be found in our [Custom Domains documentation](https://docs.lovable.dev/tips-tricks/custom-domain/).
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/c64ddc95-f6e4-4220-932e-0cbe9c79c2d5) and click on Share -> Publish.
+Join us as we build Deckoria into the ultimate card game experience. Challenge your friends, compete in epic battles, and get ready for a visually intensive, action-packed adventure!
 
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Happy coding and good luck in the hackathon!
